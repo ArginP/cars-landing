@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #212121;
     font-family: 'Helvetica', sans-serif;
@@ -159,6 +163,9 @@ body {
 
 .cars-filter {
     margin-right: 77px;
+    align-self: flex-start;
+    position: sticky;
+    top: 20px;
 }
 
 .cars-filter ul {
@@ -312,6 +319,10 @@ body {
     margin-bottom: 15px;
     font-size: 16px;
     outline: none;
+}
+
+.order-form .invalid {
+    border-color: red !important;
 }
 
 .footer {
